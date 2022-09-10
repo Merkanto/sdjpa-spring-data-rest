@@ -2,6 +2,9 @@ package merkanto.sdjpaspringdatarest.bootstrap;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import merkanto.sdjpaspringdatarest.domain.Beer;
+import merkanto.sdjpaspringdatarest.domain.BeerStyleEnum;
+import merkanto.sdjpaspringdatarest.repositories.BeerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
